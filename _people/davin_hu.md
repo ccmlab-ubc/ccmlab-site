@@ -1,6 +1,6 @@
 ---
 name: Davin Hu
-position: undergrad
+position: alumni
 avatar: davin_hu.jpg
 twitter: 
 ---

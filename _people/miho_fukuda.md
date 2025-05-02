@@ -1,6 +1,6 @@
 ---
 name: Miho Fukuda
-position: undergrad
+position: alumni
 avatar: douglas-fir.jpg
 twitter: 
 ---
