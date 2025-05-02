@@ -1,7 +1,7 @@
 ---
 name: Emily Chen
 position: undergrad
-avatar: emily_chen.jpeg
+avatar: emily_chen.jpg
 twitter: 
 ---
 <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
