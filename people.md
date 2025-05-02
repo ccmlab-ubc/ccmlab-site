@@ -64,7 +64,7 @@ permalink: /people/
 | [Jonathan Tsay](https://www.tsaylab.com/contact) (primary advisor: Rich Ivry) | PhD student (2018-2023) | Starting as Asst. Professor at Carnegie Mellon University in 2024 |
 | John Buggeln | PhD student (2022-2023) | PhD student in Cashaback Lab at University of Delaware |
 | Miho Fukuda | Undergraduate RA (2024) | University of Tokyo (Nozaki Laboratory) |
-| Davin Hu | Undergraduate RA (2023-2024) | 
+| Davin Hu | Undergraduate RA (2023-2024) | Kirke Management Consulting |
 | Amanda Arteaga | Undergraduate RA (2024) |       |
 | Rebecca Niven | Post-bacc RA (2023-2024) |       |
 | Joie Tang | Undergraduate RA and lab manager (2019-2023) | DPT student at University of Delaware |
