@@ -60,8 +60,8 @@ permalink: /people/
 
 | Who | When | Next destination |
 | :------------- |:-------------| :-----------|
-| Jonathan Wood (co-advised with Susanne Morton) | PhD student (2018-2023) | Postdoc at Moss Rehabilitation Institute | 
-| [Jonathan Tsay](https://www.tsaylab.com/contact) (primary advisor: Rich Ivry) | PhD student (2018-2023) | Starting as Asst. Professor at Carnegie Mellon University in 2024 |
+| Jonathan Wood (co-advised with Susanne Morton) | PhD student (2018-2023) | Assistant Professor at University of Delaware (Fall 2025) | 
+| [Jonathan Tsay](https://www.tsaylab.com/contact) (primary advisor: Rich Ivry) | PhD student (2018-2023) | Asssistant Professor at Carnegie Mellon University |
 | John Buggeln | PhD student (2022-2023) | PhD student in Cashaback Lab at University of Delaware |
 | Miho Fukuda | Undergraduate RA (2024) | University of Tokyo (Nozaki Laboratory) |
 | Davin Hu | Undergraduate RA (2023-2024) | Kirke Management Consulting |
