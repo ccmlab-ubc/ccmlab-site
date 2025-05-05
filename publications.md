@@ -3,6 +3,10 @@ title: Publication
 permalink: /publications/
 ---
 
+[_Evidence for an efferent-based prediction contributing to implicit motor adaptation_](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0322627)<br>
+Annika Szarka, Hyosub E Kim, J Timothy Inglis, Romeo Chua<br>
+PLoS One, 2025
+
 [_A Bayesian decision-making model of implicit motor learning from internal and external errors_](https://www.biorxiv.org/content/10.1101/2025.01.30.635749v1)<br>
 Hyosub E Kim, Romeo Chua, Davin Hu<br>
 bioRxiv, 2025
@@ -22,11 +26,6 @@ Journal of Neurophysiology, 2024
 [_Fundamental processes in sensorimotor learning: Reasoning, refinement, and retrieval_](https://elifesciences.org/articles/91839)<br>
 Jonathan S Tsay, Hyosub E Kim, Samuel D McDougle, Jordan Taylor, Adrian Haith, Guy Avraham, John W Krakauer, Anne Collins, Richard Ivry<br>
 eLife, 2024
-
-[_Evidence for an efferent-based prediction contributing to implicit motor adaptation_](https://www.biorxiv.org/content/10.1101/2024.07.29.605662v1)<br>
-Annika Szarka, Hyosub E Kim, J Timothy Inglis, Romeo Chua<br>
-bioRxiv, 2024
-
 
 [_Reinforcement learning during locomotion_](https://www.eneuro.org/content/early/2024/02/29/ENEURO.0383-23.2024)<br>
 Jonathan M Wood, Hyosub E Kim, Susanne M Morton<br>
