@@ -33,7 +33,7 @@ nav:
   - name:           "positions"
     href:           "/positions"
   - name:           "lab manual"
-    href:           "/lab manual"
+    href:           "/labmanual"
 
 # Sass
 sass:
