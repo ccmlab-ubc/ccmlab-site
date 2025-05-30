@@ -32,8 +32,8 @@ nav:
     href:           "/publications"
   - name:           "positions"
     href:           "/positions"
-#   - name:           "resources"
-#     href:           "/resources"
+  - name:           "lab manual"
+    href:           "/lab manual"
 
 # Sass
 sass:
