@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: default
 ---
 
@@ -77,4 +77,151 @@ layout: default
       <span style="display: block; margin-bottom: 3em"></span>
 
     </header>
-</div
+</div>
+ -->
+
+
+
+
+
+---
+layout: default
+---
+
+<div class='container'>
+  <header class="masthead text-center">
+    <!-- Main Header Image -->
+    <img class='img-responsive center-block' src="images/gallery/lab-ccm-june25-cropped.png" style="width: 100%; height: auto;" /> 
+
+    <!-- Welcome Text -->
+    <p>
+      <b><font size="+1">Welcome to the Computation, Cognition, and Movement (CCM) Lab at The University of British Columbia! We are a research group studying human motor learning.</font></b>
+
+      <blockquote style="font-style: italic; font-size: 1.1em; margin-top: 1em;">
+        the human body<br>
+        moves with purpose, ease and grace<br>
+        how does it do so?
+      </blockquote>
+
+      <span style="display: block; margin-bottom: 3em"></span>
+
+      <a href="https://github.com/ccmlab-ubc"><i class="fa fa-github"></i> CCM Lab</a>&nbsp;&nbsp;&nbsp;
+      <a href="mailto:hyosub.kim@ubc.ca"><i class="fa fa-envelope-o"></i> hyosub.kim@ubc.ca</a>
+    </p>
+
+    <!-- Slideshow Gallery -->
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <img src="images/gallery/lab-ccm-june25-cropped.png" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <img src="images/gallery/lab-outside-june25-cropped.png" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <img src="images/gallery/lab-jab-june25-cropped.png" style="width:100%">
+      </div>
+    </div>
+
+    <span style="display: block; margin-bottom: 3em"></span>
+
+    <!-- Recent News -->
+    <div class="w3-container" style="background: #f0f8ff; padding: 25px; border-radius:10px; border: 1px solid #5d8aa8">
+      <div style="text-align:left">
+        <h3> Recent News </h3>
+        <span style="display: block; margin-bottom: 1em"></span>
+        <div class="news">
+          {% capture now %}{{'now' | date: '%s' | minus: 31104000 %}}{% endcapture %}
+          <ul style="list-style-position:outside;padding:20px">
+            {% for new in site.data.news %}
+              {% capture date %}{{new.date | date: '%s' | plus: 0 %}}{% endcapture %}
+              {% if date > now %}
+                <li>
+                  <span>{{ new.details }}</span>
+                </li><br>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <span style="display: block; margin-bottom: 3em"></span>
+
+    <!-- Acknowledgments -->
+    <div style="text-align: left; background: #f9f9f9; padding: 20px; border-radius: 8px; border: 1px solid #ccc;">
+      <h3>Acknowledgments</h3>
+      <p>
+        We acknowledge the Natural Sciences and Engineering Research Council of Canada (NSERC), the Canada Foundation for Innovation (CFI), and the B.C. government for their generous support. 
+      </p>
+    
+      <!-- Logos Row -->
+      <div style="display: flex; justify-content: center; align-items: center; gap: 50px; flex-wrap: wrap; margin-top: 20px;">
+        <img src="images/logo/NSERC.png" alt="NSERC" style="max-width: 425px; height: auto;">
+        <img src="images/logo/CFI.png" alt="CFI" style="max-width: 225px; height: auto;">
+      </div>
+    </div>
+
+    <span style="display: block; margin-bottom: 3em"></span>
+
+    <!-- Footer -->
+    School of Kinesiology at The University of British Columbia<br>
+    Vancouver, BC<br>
+    <small><small>(Powered by <a href="http://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/KordingLab/KordingLab.github.io">Kording Lab's</a> template. Photo courtesy of <a href="https://www.flickr.com/photos/ubcpublicaffairs/11970021376">UBC</a>.</small></small>)
+
+    <span style="display: block; margin-bottom: 3em"></span>
+  </header>
+</div>
+
+<!-- Slideshow Styles -->
+<style>
+.slideshow-container {
+  position: relative;
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+  overflow: hidden;
+}
+
+.mySlides {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: auto;
+}
+
+.mySlides img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1s;
+}
+
+@keyframes fade {
+  from { opacity: 0.4 } 
+  to { opacity: 1 }
+}
+</style>
+
+<!-- Slideshow Script -->
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  const slides = document.getElementsByClassName("mySlides");
+  for (let i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+
+  slideIndex++;
+  if (slideIndex > slides.length) { slideIndex = 1 }
+
+  slides[slideIndex - 1].style.display = "block";  
+
+  setTimeout(showSlides, 3000); // 3 seconds
+}
+</script>
