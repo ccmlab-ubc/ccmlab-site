@@ -4,7 +4,7 @@ layout: default
 
 <div class='container'>
   <header class="masthead text-center">
-
+    <img class='img-responsive center-block' src="images/gallery/lab-ccm-june25-cropped.png" width="100%" height="100%" />
     <!-- Slideshow Gallery -->
     <div class="slideshow-container" style="max-width: 800px; margin: auto; position: relative; height: 400px; overflow: hidden;">
 
@@ -94,7 +94,8 @@ layout: default
   height: 100%;
   object-fit: cover;
   opacity: 0;
-  animation: switchSlide 9s infinite steps(1);
+  animation: gentleFade 9s infinite;
+  animation-timing-function: ease-in-out;
 }
 
 .slideshow-container img:nth-child(1) {
@@ -109,7 +110,7 @@ layout: default
   animation-delay: 6s;
 }
 
-@keyframes switchSlide {
+@keyframes gentleFade {
   0%   { opacity: 0; }
   10%  { opacity: 1; }
   30%  { opacity: 1; }
