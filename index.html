@@ -4,25 +4,8 @@ layout: default
 
 <div class='container'>
   <header class="masthead text-center">
-    <!-- Main Header Image -->
-    <img class='img-responsive center-block' src="images/gallery/lab-ccm-june25-cropped.png" style="width: 100%; height: auto;" /> 
-
-    <!-- Welcome Text -->
-    <p>
-      <b><font size="+1">Welcome to the Computation, Cognition, and Movement (CCM) Lab at The University of British Columbia! We are a research group studying human motor learning.</font></b>
-
-      <blockquote style="font-style: italic; font-size: 1.1em; margin-top: 1em;">
-        the human body<br>
-        moves with purpose, ease and grace<br>
-        how does it do so?
-      </blockquote>
-
-      <span style="display: block; margin-bottom: 3em"></span>
-
-      <a href="https://github.com/ccmlab-ubc"><i class="fa fa-github"></i> CCM Lab</a>&nbsp;&nbsp;&nbsp;
-      <a href="mailto:hyosub.kim@ubc.ca"><i class="fa fa-envelope-o"></i> hyosub.kim@ubc.ca</a>
-    </p>
-
+<!--     <!-- Main Header Image -->
+    <img class='img-responsive center-block' src="images/gallery/lab-ccm-june25-cropped.png" style="width: 100%; height: auto;" />  -->
     <!-- Slideshow Gallery -->
     <div class="slideshow-container" style="max-width: 800px; margin: auto; position: relative;">
 
@@ -40,48 +23,22 @@ layout: default
 
     </div>
 
-    <style>
-    .slideshow-container {
-      position: relative;
-      max-width: 100%;
-      margin: auto;
-    }
+    <!-- Welcome Text -->
+    <p>
+      <b><font size="+1">Welcome to the Computation, Cognition, and Movement (CCM) Lab at The University of British Columbia! We are a research group studying human motor learning.</font></b>
 
-    .mySlides {
-      display: none;
-      position: relative;
-      width: 100%;
-    }
+      <blockquote style="font-style: italic; font-size: 1.1em; margin-top: 1em;">
+        the human body<br>
+        moves with purpose, ease and grace<br>
+        how does it do so?
+      </blockquote>
 
-    .fade {
-      animation-name: fade;
-      animation-duration: 1s;
-    }
+      <span style="display: block; margin-bottom: 3em"></span>
 
-    @keyframes fade {
-      from { opacity: 0.4; } 
-      to { opacity: 1; }
-    }
-    </style>
+      <a href="https://github.com/ccmlab-ubc"><i class="fa fa-github"></i> CCM Lab</a>&nbsp;&nbsp;&nbsp;
+      <a href="mailto:hyosub.kim@ubc.ca"><i class="fa fa-envelope-o"></i> hyosub.kim@ubc.ca</a>
+    </p>
 
-    <script>
-    document.addEventListener("DOMContentLoaded", function() {
-      let slideIndex = 0;
-      const slides = document.getElementsByClassName("mySlides");
-
-      function showSlides() {
-        for (let i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none";  
-        }
-        slideIndex++;
-        if (slideIndex > slides.length) { slideIndex = 1; }
-        slides[slideIndex - 1].style.display = "block";
-        setTimeout(showSlides, 3000); // Change image every 3 seconds
-      }
-
-      showSlides();
-    });
-    </script>
 
 
     <!-- Recent News -->
@@ -132,3 +89,46 @@ layout: default
   </header>
 </div>
 
+
+<style>
+    .slideshow-container {
+      position: relative;
+      max-width: 100%;
+      margin: auto;
+    }
+
+    .mySlides {
+      display: none;
+      position: relative;
+      width: 100%;
+    }
+
+    .fade {
+      animation-name: fade;
+      animation-duration: 1s;
+    }
+
+    @keyframes fade {
+      from { opacity: 0.4; } 
+      to { opacity: 1; }
+    }
+    </style>
+
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      let slideIndex = 0;
+      const slides = document.getElementsByClassName("mySlides");
+
+      function showSlides() {
+        for (let i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) { slideIndex = 1; }
+        slides[slideIndex - 1].style.display = "block";
+        setTimeout(showSlides, 3000); // Change image every 3 seconds
+      }
+
+      showSlides();
+    });
+    </script>
