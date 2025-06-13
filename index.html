@@ -24,19 +24,65 @@ layout: default
     </p>
 
     <!-- Slideshow Gallery -->
-    <div class="slideshow-container">
+    <div class="slideshow-container" style="max-width: 800px; margin: auto; position: relative;">
+
       <div class="mySlides fade">
-        <img src="images/gallery/lab-ccm-june25-cropped.png" style="width:100%">
+        <img src="images/gallery/lab-ccm-june25-cropped.png" alt="Lab CCM June 25" style="width:100%">
       </div>
+
       <div class="mySlides fade">
-        <img src="images/gallery/lab-outside-june25-cropped.png" style="width:100%">
+        <img src="images/gallery/lab-outside-june25-cropped.png" alt="Lab Outside June 25" style="width:100%">
       </div>
+
       <div class="mySlides fade">
-        <img src="images/gallery/lab-jab-june25-cropped.png" style="width:100%">
+        <img src="images/gallery/lab-jab-june25-cropped.png" alt="Lab Jab June 25" style="width:100%">
       </div>
+
     </div>
 
-    <span style="display: block; margin-bottom: 3em"></span>
+    <style>
+    .slideshow-container {
+      position: relative;
+      max-width: 100%;
+      margin: auto;
+    }
+
+    .mySlides {
+      display: none;
+      position: relative;
+      width: 100%;
+    }
+
+    .fade {
+      animation-name: fade;
+      animation-duration: 1s;
+    }
+
+    @keyframes fade {
+      from { opacity: 0.4; } 
+      to { opacity: 1; }
+    }
+    </style>
+
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      let slideIndex = 0;
+      const slides = document.getElementsByClassName("mySlides");
+
+      function showSlides() {
+        for (let i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) { slideIndex = 1; }
+        slides[slideIndex - 1].style.display = "block";
+        setTimeout(showSlides, 3000); // Change image every 3 seconds
+      }
+
+      showSlides();
+    });
+    </script>
+
 
     <!-- Recent News -->
     <div class="w3-container" style="background: #f0f8ff; padding: 25px; border-radius:10px; border: 1px solid #5d8aa8">
@@ -86,56 +132,3 @@ layout: default
   </header>
 </div>
 
-<!-- Slideshow Styles -->
-<style>
-.slideshow-container {
-  position: relative;
-  max-width: 100%;
-  height: auto;
-  margin: auto;
-  overflow: hidden;
-}
-
-.mySlides {
-  display: none;
-  position: absolute;
-  width: 100%;
-  height: auto;
-}
-
-.mySlides img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-.fade {
-  animation-name: fade;
-  animation-duration: 1s;
-}
-
-@keyframes fade {
-  from { opacity: 0.4 } 
-  to { opacity: 1 }
-}
-</style>
-
-<!-- Slideshow Script -->
-<script>
-let slideIndex = 0;
-showSlides();
-
-function showSlides() {
-  const slides = document.getElementsByClassName("mySlides");
-  for (let i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
-  }
-
-  slideIndex++;
-  if (slideIndex > slides.length) { slideIndex = 1 }
-
-  slides[slideIndex - 1].style.display = "block";  
-
-  setTimeout(showSlides, 3000); // 3 seconds
-}
-</script>
