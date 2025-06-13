@@ -4,22 +4,15 @@ layout: default
 
 <div class='container'>
   <header class="masthead text-center">
-<!--     <!-- Main Header Image -->
-    <img class='img-responsive center-block' src="images/gallery/lab-ccm-june25-cropped.png" style="width: 100%; height: auto;" />  -->
+
     <!-- Slideshow Gallery -->
-    <div class="slideshow-container" style="max-width: 800px; margin: auto; position: relative;">
+    <div class="slideshow-container" style="max-width: 800px; margin: auto; position: relative; height: 400px; overflow: hidden;">
 
-      <div class="mySlides fade">
-        <img src="images/gallery/lab-ccm-june25-cropped.png" alt="Lab CCM June 25" style="width:100%">
-      </div>
+      <img src="images/gallery/lab-ccm-june25-cropped.png" alt="Lab CCM June 25" class="slide" />
+      <img src="images/gallery/lab-outside-june25-cropped.png" alt="Lab Outside June 25" class="slide" />
+      <img src="images/gallery/lab-jam-june25-cropped.png" alt="Lab Jam June 25" class="slide" />
 
-      <div class="mySlides fade">
-        <img src="images/gallery/lab-outside-june25-cropped.png" alt="Lab Outside June 25" style="width:100%">
-      </div>
-
-      <div class="mySlides fade">
-        <img src="images/gallery/lab-jab-june25-cropped.png" alt="Lab Jab June 25" style="width:100%">
-      </div>
+    </div>
 
     </div>
 
@@ -91,44 +84,36 @@ layout: default
 
 
 <style>
-    .slideshow-container {
-      position: relative;
-      max-width: 100%;
-      margin: auto;
-    }
+.slideshow-container {
+  position: relative;
+}
 
-    .mySlides {
-      display: none;
-      position: relative;
-      width: 100%;
-    }
+.slideshow-container img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  animation: switchSlide 9s infinite steps(1);
+}
 
-    .fade {
-      animation-name: fade;
-      animation-duration: 1s;
-    }
+.slideshow-container img:nth-child(1) {
+  animation-delay: 0s;
+}
 
-    @keyframes fade {
-      from { opacity: 0.4; } 
-      to { opacity: 1; }
-    }
-    </style>
+.slideshow-container img:nth-child(2) {
+  animation-delay: 3s;
+}
 
-    <script>
-    document.addEventListener("DOMContentLoaded", function() {
-      let slideIndex = 0;
-      const slides = document.getElementsByClassName("mySlides");
+.slideshow-container img:nth-child(3) {
+  animation-delay: 6s;
+}
 
-      function showSlides() {
-        for (let i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none";  
-        }
-        slideIndex++;
-        if (slideIndex > slides.length) { slideIndex = 1; }
-        slides[slideIndex - 1].style.display = "block";
-        setTimeout(showSlides, 3000); // Change image every 3 seconds
-      }
-
-      showSlides();
-    });
-    </script>
+@keyframes switchSlide {
+  0%   { opacity: 0; }
+  10%  { opacity: 1; }
+  30%  { opacity: 1; }
+  40%  { opacity: 0; }
+  100% { opacity: 0; }
+}
+</style>
