@@ -3,7 +3,7 @@ title: Participate
 permalink: /participate/
 ---
 
-### Want to participate in an experiment?
+### We are looking for volunteers
 
 We are recruiting participants for our studies!
 
