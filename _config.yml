@@ -34,6 +34,8 @@ nav:
     href:           "/positions"
   - name:           "lab manual"
     href:           "/labmanual"
+  - name:           "participate"
+    href:           "/participate"
 
 # Sass
 sass:
