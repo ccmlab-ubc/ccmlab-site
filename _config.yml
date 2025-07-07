@@ -30,6 +30,8 @@ nav:
     href:           "/people"
   - name:           "publications"
     href:           "/publications"
+  - name:           "teaching"
+    href:           "/teaching"
   - name:           "positions"
     href:           "/positions"
   - name:           "lab manual"
