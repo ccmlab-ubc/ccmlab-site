@@ -1,8 +1,8 @@
-## Teaching
+### Teaching
 
-Hyosub teaches the following three courses during the regular academic term at UBC. While the courses are all unique, common themes across them include an emphasis on active engagement with the material, skills-based assessments, and projects that involve applying the knowledge gained to topics that are of intrinsic interest to the student. 
+Hyosub teaches the following three courses during the regular academic term at UBC. While the courses are all unique, common themes across them include an emphasis on active learning, a focus on developing tangible skills and skills-based assessments, and projects that involve applying the knowledge gained to answer questions of intrinsic interest to the student. 
 
-### Winter Term 1 (Sept-Dec)
+#### Winter Term 1 (September - December)
 ---
 
 #### KIN 482E: Programming and Data Science for the Behavioural and Neural Sciences
@@ -11,7 +11,7 @@ This course provides hands-on experience with learning to program in Python. The
 
 [Syllabus (2024)](https://educ-kin2016.sites.olt.ubc.ca/files/2024/09/KIN-482E-syllabus24-2.pdf)
 
-### Winter Term 2 (Jan-Apr)
+#### Winter Term 2 (January - April)
 ---
 #### KIN 482D: Computational Modelling of Human Sensorimotor Control
 
