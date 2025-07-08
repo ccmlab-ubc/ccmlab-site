@@ -2,7 +2,6 @@
 
 Hyosub teaches the following three courses during the regular academic term at UBC. While the courses are all unique, common themes across them include an emphasis on active learning, developing tangible skills and skills-based assessments, and fostering creative applications of the knowledge gained through final projects. 
 
-&nbsp;
 
 ---
 #### KIN 482E: Programming and Data Science for the Behavioural and Neural Sciences 
