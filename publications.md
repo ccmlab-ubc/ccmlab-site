@@ -3,13 +3,13 @@ title: Publication
 permalink: /publications/
 ---
 
+[_Causal inference, prediction and state estimation in sensorimotor learning_](https://royalsocietypublishing.org/doi/full/10.1098/rspb.2025.1320)<br>
+Hyosub E Kim, Romeo Chua, Davin Hu <br>
+Proceedings of the Royal Society B, 2025
+
 [_Evidence for an efferent-based prediction contributing to implicit motor adaptation_](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0322627)<br>
 Annika Szarka, Hyosub E Kim, J Timothy Inglis, Romeo Chua<br>
 PLoS One, 2025
-
-[_A Bayesian decision-making model of implicit motor learning from internal and external errors_](https://www.biorxiv.org/content/10.1101/2025.01.30.635749v1)<br>
-Hyosub E Kim, Romeo Chua, Davin Hu<br>
-bioRxiv, 2025
 
 [_The detrimental effect of stroke on motor adaptation_](https://journals.sagepub.com/doi/full/10.1177/15459683241309588)<br>
 Sabrina S Abram, Jonathan S Tsay, Heran Yosef, Darcy S Reisman, Hyosub E Kim<br>
