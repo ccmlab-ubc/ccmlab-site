@@ -25,7 +25,7 @@ permalink: /people/
  {% elsif role == 'postbacc' %}
 <h3>Post-bacc</h3>
  {% elsif role == 'undergrad' %}
-<h3>Undergraduate Students</h3>
+<h3>Undergraduate and Post-bacc Students</h3>
  {% elsif role == 'visiting' %}
 <h3>Visiting Scholars</h3>
  {% elsif role == 'others' %}
