@@ -9,7 +9,7 @@ Proc. Motor Learning and Motor Control, 2025
 
 [_Dual agonist and antagonist muscle vibration produces a bias in end point with no change in variability_](https://link.springer.com/article/10.1007/s00221-025-07143-3)<br>
 Gregg Eschelmuller, J Timothy Inglis, Hyosub E Kim, Romeo Chua <br>
-Experiment Brain Research, 2025
+Experimental Brain Research, 2025
 
 [_Causal inference, prediction and state estimation in sensorimotor learning_](https://royalsocietypublishing.org/doi/full/10.1098/rspb.2025.1320)<br>
 Hyosub E Kim, Romeo Chua, Davin Hu <br>
