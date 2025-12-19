@@ -1,7 +1,7 @@
 ---
 name: Eric Jin
 position: undergrad
-avatar: eric_jin.jpg
+avatar: eric_jin.jpeg
 twitter: 
 ---
 <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
