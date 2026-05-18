@@ -1,6 +1,6 @@
 ---
 name: Lisa Liu
-position: undergrad
+position: alumni
 avatar: lisa-liu.JPEG
 twitter: 
 ---

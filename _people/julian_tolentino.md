@@ -1,6 +1,6 @@
 ---
 name: Julian Tolentino
-position: undergrad
+position: alumni
 avatar: julian_tolentino.jpeg
 twitter: 
 ---

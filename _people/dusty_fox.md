@@ -1,6 +1,6 @@
 ---
 name: Dusty Fox
-position: undergrad
+position: alumni
 avatar: dusty-fox.png
 twitter: 
 ---
