@@ -1,0 +1,6 @@
+name: labpage
+channels:
+  - defaults
+dependencies:
+  - jupyterlab
+prefix: /Users/hyosubkim/opt/anaconda3/envs/labpage
