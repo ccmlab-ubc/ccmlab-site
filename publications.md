@@ -2,6 +2,9 @@
 title: Publication
 permalink: /publications/
 ---
+[_Dissociating the behavioral and computational features of implicit motor learning and explicit perturbation detection_](https://www.biorxiv.org/content/10.64898/2026.06.25.734533v1)<br>
+Hyosub E Kim, Jack O Darley, Michael S Landy, Romeo Chua, Dusty J Fox<br>
+bioRxiv, 2026
 
 [_Bayesian causal inference as a common principle for perception and action_](http://motor-conference.org/openconf.php)<br>
 Jack O Darley, Dusty Fox, Michael S Landy, Romeo Chua, Hyosub E Kim <br>
