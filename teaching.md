@@ -4,7 +4,7 @@ Hyosub teaches the following three courses during the regular academic term at U
 
 
 ---
-#### KIN 482E: Programming and Data Science for the Behavioural and Neural Sciences 
+#### KIN 318 (formerly 482E): Programming and Data Science for the Behavioural and Neural Sciences 
 
 *Taught in Winter Term 1*
 
@@ -13,7 +13,7 @@ This course provides hands-on experience with learning to program in Python. The
 [Syllabus (2024)](https://educ-kin2016.sites.olt.ubc.ca/files/2024/09/KIN-482E-syllabus24-2.pdf)
 
 ---
-#### KIN 482D: Computational Modelling of Human Sensorimotor Control 
+#### KIN 418 (formerly 482D): Computational Modelling of Human Sensorimotor Control 
 
 *Taught in Winter Term 2*
 
@@ -22,7 +22,7 @@ Computational modelling has been central to many recent advances in our fundamen
 [Syllabus (2025)](https://educ-kin2016.sites.olt.ubc.ca/files/2025/01/KIN-482D-2024W-T2-Outline.pdf)
 
 ---
-#### KIN 500A: Seminar in Computational Motor Control 
+#### KIN 568 (formerly 500A): Seminar in Computational Motor Control 
 
 *Taught in Winter Term 2*
 
