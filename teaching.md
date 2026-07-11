@@ -19,7 +19,7 @@ This course provides hands-on experience with learning to program in Python. The
 
 Computational modelling has been central to many recent advances in our fundamental understanding of human cognition, perception, and action. Through a combination of lectures, readings, and hands-on tutorials, this course provides students with an intuitive, yet rigorous, introduction to computational modelling of sensorimotor control and learning. This course emphasizes Bayesian theories and approaches to how the brain makes optimal decisions and actions despite uncertainty about world states. **Prior programming experience is required.**  
 
-[Syllabus (2025)](https://educ-kin2016.sites.olt.ubc.ca/files/2025/01/KIN-482D-2024W-T2-Outline.pdf)
+[Syllabus (2025)](https://educ-kin2016.sites.olt.ubc.ca/files/2026/03/KIN-482D-T2.pdf)
 
 ---
 #### KIN 568 (formerly 500A): Seminar in Computational Motor Control 
