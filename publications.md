@@ -6,6 +6,10 @@ permalink: /publications/
 Hyosub E Kim, Jack O Darley, Michael S Landy, Romeo Chua, Dusty J Fox<br>
 bioRxiv, 2026
 
+[_Individual limb measures of split-belt adaptation are correlated with shifts in lower limb position sense_](https://www.biorxiv.org/content/10.64898/2026.07.19.739475v1)<br>
+Jonathan Wood, Saunders Penn, Hyosub E Kim, Susanne M Morton<br>
+bioRxiv, 2026
+
 [_Bayesian causal inference as a common principle for perception and action_](http://motor-conference.org/openconf.php)<br>
 Jack O Darley, Dusty Fox, Michael S Landy, Romeo Chua, Hyosub E Kim <br>
 Proc. Motor Learning and Motor Control, 2025
