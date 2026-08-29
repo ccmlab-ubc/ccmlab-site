@@ -5,9 +5,9 @@ permalink: /positions/
 
 ### Join the lab
 
-We are always looking for highly motivated and curious graduate students and postdoctoral fellows to join us. If you have a strong interest in sensorimotor control and learning, this is a great environment to conduct research in those areas. 
+We are always looking for highly motivated and curious graduate students and postdoctoral fellows to join us. If you have a strong interest in sensorimotor control and learning, this is a great environment to conduct research in those areas. Check out our recent <a href="https://ccmlab.org/publications/">publications</a> to familiarize yourself with the type of research we do. 
 
-If interested, please first fill out the supervision enquiry form found on this <a href="https://www.grad.ubc.ca/researcher/23541-kim">page</a>. 
+If interested, please fill out the supervision enquiry form found on this <a href="https://www.grad.ubc.ca/researcher/23541-kim">page</a>. 
 
 <!-- Otherwise, if you reach out directly, please send an email to <a href="mailto:hyosub.kim@ubc.ca">Hyosub</a> that includes the following:
 
