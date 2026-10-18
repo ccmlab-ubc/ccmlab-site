@@ -1,6 +1,6 @@
 ---
 name: Yousun Park
-position: undergrad
+position: alumni
 avatar: yousun-park.jpg
 twitter: 
 ---

@@ -1,6 +1,6 @@
 ---
 name: Emily Chen
-position: undergrad
+position: alumni
 avatar: emily_chen.jpg
 twitter: 
 ---
