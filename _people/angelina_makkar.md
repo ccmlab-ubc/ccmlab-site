@@ -1,7 +1,7 @@
 ---
 name: Angelina Makkar
 position: undergrad
-avatar: angeline_makkar.jpg
+avatar: angelina_makkar.jpg
 twitter: 
 ---
 <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
